@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Spaghetti</string>
+    <string name="title">Test a link </string>
+    <string name="description">To compute the percentage of whether it is a good or bad link</string>
+    <string name="insert">Insert a link</string>
+    <string name="submit">Submit</string>
+</resources>

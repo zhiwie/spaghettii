@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_url">edit_url</string>
+    <string name="test_result">test_result</string>
+    <string name="button_compute">button_compute</string>
+</resources>
