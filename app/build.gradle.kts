@@ -7,6 +7,14 @@ android {
     namespace = "com.example.spaghetti"
     compileSdk = 34
 
+    sourceSets {
+        getByName("main") {
+            assets {
+                srcDirs("src/main/assets", "src/main/ml")
+            }
+        }
+    }
+
     defaultConfig {
         applicationId = "com.example.spaghetti"
         minSdk = 24
@@ -52,7 +60,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -74,5 +81,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
 }

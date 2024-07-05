@@ -2,7 +2,7 @@
     <string name="app_name">Spaghetti</string>
     <string name="title">Test a link </string>
     <string name="description">To compute the percentage of whether it is a good or bad link</string>
-    <string name="reminder">Please remove 'https://' from the link</string>
+    <string name="reminder">If faced indication error, please remove https:// from the link</string>
     <string name="insert">Insert a link</string>
     <string name="submit">Submit</string>
 </resources>
